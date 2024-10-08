@@ -1,0 +1,13 @@
+prefix=/Users/aakritinag/Downloads/chat_pdfs/venv
+exec_prefix=/Users/aakritinag/Downloads/chat_pdfs/venv
+libdir=/Users/aakritinag/Downloads/chat_pdfs/venv/lib
+sharedlibdir=/Users/aakritinag/Downloads/chat_pdfs/venv/lib
+includedir=/Users/aakritinag/Downloads/chat_pdfs/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
