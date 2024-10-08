@@ -19,18 +19,12 @@ Interactively chat with the content of PDF documents using Google's Generative A
 
 ### Dependencies
 The application relies on the following Python packages:
-streamlit
-
-PyPDF2
-
-langchain
-
-langchain-google-genai
-
-google-generativeai
-
-faiss-cpu
-
-python-dotenv
+1. streamlit
+2. PyPDF2
+3. langchain
+4. langchain-google-genai
+5. google-generativeai
+6. faiss-cpu
+7. python-dotenv
 
 These are specified in the requirements.txt file.
